@@ -1,0 +1,31 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "description": "Introduction ===",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "preview": "browser-sync start --server 'src' --files 'src'",
+    "compile-css": "node-sass --output-style expanded src/scss/main.scss src/css/main.css",
+    "build": "npm run build-css && npm run build-html && npm run build-js",
+    "build-css": "node-sass src/css/main.css build/css/main.css --output-style compressed",
+    "build-html": "cp src/index.html build",
+    "build-js": "cp -R src/scripts/ build/scripts/"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamgparsons/frontend-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamgparsons/frontend-test/issues"
+  },
+  "homepage": "https://github.com/adamgparsons/frontend-test#readme"
+}

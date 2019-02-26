@@ -1,0 +1,39 @@
+// ====================================================================
+// @main: scss
+// ====================================================================
+//
+
+// SETTINGS: global variables, config switches
+@import "1-settings/s--colors";
+@import "1-settings/s--typography";
+@import "1-settings/s--spacing";
+@import "1-settings/s--widths";
+
+// TOOLS: default mixins and functions
+@import "2-tools/t--mixins";
+@import "2-tools/t--fonts";
+
+// GENERIC: ground-zero styles (Normalize.css, resets, box-sizing)
+
+// ELEMENTS: unclassed HTML elements (type selectors)
+@import "4-elements/e--body";
+@import "4-elements/e--font-styles";
+@import "4-elements/e--links";
+@import "4-elements/e--lists";
+
+// OBJECTS: cosmetic-free design patterns
+@import "5-objects/o--grid";
+@import "5-objects/o--line-limit";
+
+// COMPONENTS: designed components, chunks of UI
+@import "6-components/c--button";
+@import "6-components/c--footer";
+@import "6-components/c--hero";
+@import "6-components/c--introduction";
+@import "6-components/c--more-info";
+@import "6-components/c--side-nav";
+@import "6-components/c--testimonial";
+@import "6-components/c--top-nav";
+
+// // UTILITIES: helpers and overrides
+@import "7-utilities/u--containers";

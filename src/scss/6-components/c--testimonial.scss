@@ -1,0 +1,18 @@
+// ========================================================
+// @components: testimonial
+// ========================================================
+
+.testimonial {
+  background-color: $pale-grey;
+  padding: $spacing-5;
+  @include align-self-flex-start;
+
+
+  p:first-of-type {
+    margin-bottom: $spacing-5;
+  }
+
+  .testimonial-name {
+    color: $mid-grey;
+  }
+}

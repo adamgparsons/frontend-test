@@ -1,0 +1,54 @@
+// ========================================================
+// @elements: font-styles
+// ========================================================
+
+.font-style-1 {
+  font-size: $font-size-1;
+  line-height: $line-height-7;
+  font-weight: $font-bold;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: $white;
+}
+
+.font-style-2 {
+  font-size: $font-size-2;
+  line-height: $line-height-6;
+  font-weight: $font-regular;
+  letter-spacing: -1px;
+  text-align: center;
+  color: $dark-grey;
+}
+
+.font-style-3 {
+  font-size: $font-size-3;
+  line-height: $line-height-5;
+  font-weight: $font-regular;
+  letter-spacing: -0.03px;
+  color: $mid-grey;
+  margin-bottom: $spacing-2;
+}
+
+.font-style-4 {
+  font-size: $font-size-4;
+  line-height: $line-height-4;
+  font-weight: $font-regular;
+  letter-spacing: 0.2px;
+  color: $white;
+}
+
+.font-style-5 {
+  font-size: $font-size-5;
+  line-height: $line-height-2;
+  letter-spacing: 1.5px;
+  color: $light-grey;
+  font-weight: $font-regular;
+}
+
+.font-style-6 {
+  font-size: $font-size-6;
+  line-height: $line-height-1;
+  letter-spacing: 0.4px;
+  color: $light-grey;
+  font-weight: $font-regular;
+}

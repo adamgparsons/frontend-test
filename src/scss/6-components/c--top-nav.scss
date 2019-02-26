@@ -1,0 +1,27 @@
+// ========================================================
+// @components: top-nav
+// ========================================================
+
+.top-nav {
+  max-width: 500px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: $spacing-4;
+}
+
+.top-nav ul {
+  @include flexbox;
+  @include justify-content-space-between;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-nav .font-style-5 {
+  color: $white;
+  text-transform: uppercase;
+}

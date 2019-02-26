@@ -1,0 +1,20 @@
+// ========================================================
+// @components: more-info
+// ========================================================
+
+.more-info {
+  background-color: $orange;
+  color: white;
+
+  .container {
+    @include flexbox;
+    @include align-items-center;
+    @include justify-content-space-between;
+  }
+
+  p {
+    max-width: 700px;
+    margin-top: $spacing-4;
+    margin-bottom: $spacing-4;
+  }
+}

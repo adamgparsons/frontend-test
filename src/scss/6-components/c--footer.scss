@@ -1,0 +1,46 @@
+// ========================================================
+// @components: footer
+// ========================================================
+
+.footer-content {
+  @include flexbox;
+  @include align-items-flex-start;
+  margin-left: -$spacing-6;
+  margin-right: -$spacing-6;
+  padding: $spacing-6 0;
+
+  .logo-small {
+    margin-left: $spacing-6;
+    margin-right: $spacing-5;
+  }
+
+  ul {
+    margin-top: 0;
+    margin-left: $spacing-6;
+    margin-right: $spacing-6;
+
+    a {
+      @include transition;
+
+      &:hover {
+        color: $dark-grey
+      }
+    }
+  }
+}
+
+
+.footer-list-heading {
+  font-size: $font-size-6;
+  line-height: $line-height-2;
+  letter-spacing: 1px;
+  color: $mid-grey;
+  text-transform: uppercase;
+}
+
+.footer-list-item {
+  font-size: $font-size-6;
+  line-height: $line-height-2;
+  letter-spacing: 1px;
+  color: $light-grey;
+}
