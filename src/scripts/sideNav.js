@@ -1,8 +1,8 @@
-const navTag = document.querySelector('.nav');
-const navToggleTag = document.querySelector('.nav-toggle');
+const sideNavTag = document.querySelector('.side-nav');
+const sideNavToggleTag = document.querySelector('.side-nav-toggle');
 
-navToggleTag.addEventListener('click', function (e) {
+sideNavToggleTag.addEventListener('click', function (e) {
   e.preventDefault();
-  navToggleTag.classList.toggle('expanded');
-  navTag.classList.toggle('expanded');;
+  sideNavToggleTag.classList.toggle('expanded');
+  sideNavTag.classList.toggle('expanded');;
 });

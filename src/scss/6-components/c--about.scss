@@ -1,0 +1,24 @@
+// ========================================================
+// @components: about
+// ========================================================
+
+.about {
+  max-width: $width-two-thirds;
+  margin-left: $spacing-5;
+  margin-right: $spacing-5;
+}
+
+@media #{$breakpoint-medium} {
+  .about {
+    margin-left: $spacing-3;
+    margin-right: $spacing-3;
+  }
+
+}
+
+@media #{$breakpoint-small} {
+  .about {
+    max-width: 100%;
+  }
+
+}

@@ -17,4 +17,14 @@
     margin-top: $spacing-4;
     margin-bottom: $spacing-4;
   }
+
+  button {
+    margin-left: $spacing-4;
+  }
+}
+
+@media screen and (max-width:550px) {
+  .more-info .container {
+    flex-direction: column;
+  }
 }

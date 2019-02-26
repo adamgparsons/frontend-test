@@ -19,9 +19,14 @@
   list-style: none;
   margin: 0 auto;
   text-align: center;
-}
 
-.top-nav .font-style-5 {
-  color: $white;
-  text-transform: uppercase;
+  a {
+    color: $white;
+    text-transform: uppercase;
+
+    &:hover {
+      border-bottom: $white 2px solid;
+      padding-bottom: 1px;
+    }
+  }
 }

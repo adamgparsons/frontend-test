@@ -7,3 +7,13 @@
   margin: 0 auto;
   margin: $spacing-7 auto;
 }
+
+@media #{$breakpoint-small} {
+  .introduction h2 {
+    margin-bottom: $spacing-5;
+    text-align: left;
+    margin-left: $spacing-3;
+    margin-right: $spacing-3;
+  }
+
+}

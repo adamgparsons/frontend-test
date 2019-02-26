@@ -7,18 +7,22 @@
   margin-right: -$spacing-5;
   @include flexbox;
   margin-bottom: $spacing-5;
+}
 
-  &>div {
-    margin-left: $spacing-5;
-    margin-right: $spacing-5;
-
+@media #{$breakpoint-medium} {
+  .grid {
+    margin-left: -$spacing-3;
+    margin-right: -$spacing-3;
   }
 }
 
-.w-third {
-  width: $width-third;
-}
 
-.w-two-thirds {
-  width: $width-two-thirds;
+@media #{$breakpoint-small} {
+  .grid {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-left: -$spacing-3;
+    margin-right: -$spacing-3
+  }
+
 }

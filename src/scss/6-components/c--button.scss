@@ -15,6 +15,7 @@ button {
   line-height: 14px;
   @include transition;
   cursor: pointer;
+  white-space: nowrap;
 
   &:hover {
     background-color: $dark-grey;

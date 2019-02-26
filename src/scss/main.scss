@@ -4,6 +4,7 @@
 //
 
 // SETTINGS: global variables, config switches
+@import "1-settings/s--breakpoints";
 @import "1-settings/s--colors";
 @import "1-settings/s--typography";
 @import "1-settings/s--spacing";
@@ -26,6 +27,7 @@
 @import "5-objects/o--line-limit";
 
 // COMPONENTS: designed components, chunks of UI
+@import "6-components/c--about";
 @import "6-components/c--button";
 @import "6-components/c--footer";
 @import "6-components/c--hero";

@@ -5,6 +5,9 @@
 .testimonial {
   background-color: $pale-grey;
   padding: $spacing-5;
+  margin-left: $spacing-5;
+  margin-right: $spacing-5;
+  max-width: $width-third;
   @include align-self-flex-start;
 
 
@@ -14,5 +17,21 @@
 
   .testimonial-name {
     color: $mid-grey;
+  }
+}
+
+@media #{$breakpoint-medium} {
+  .testimonial {
+    margin-left: $spacing-3;
+    margin-right: $spacing-3;
+  }
+}
+
+
+@media #{$breakpoint-small} {
+  .testimonial {
+    max-width: 100%;
+    padding: $spacing-4;
+    margin-top: $spacing-3;
   }
 }

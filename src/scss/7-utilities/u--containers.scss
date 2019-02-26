@@ -5,4 +5,11 @@
 .container {
   margin: 0 auto;
   max-width: 1024px;
+  padding: 0 $spacing-2;
+}
+
+@media #{$breakpoint-medium} {
+  container {
+    padding: 0 $spacing-3;
+  }
 }
