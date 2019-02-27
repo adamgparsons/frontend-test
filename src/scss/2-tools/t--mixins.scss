@@ -2,6 +2,8 @@
 // @tools: mixins
 // ========================================================
 
+//mixins here are used for vendor prefixing to ensure consistency across browsers
+
 @mixin flexbox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -59,6 +61,18 @@
 @mixin transition {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+@mixin transform-rotate-45 {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg)
+}
+
+@mixin transform-rotate--45 {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg)
 }
 
 @mixin user-select-none {

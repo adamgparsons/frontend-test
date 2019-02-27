@@ -2,6 +2,8 @@
 // @elements: font-styles
 // ========================================================
 
+//font styles are abstracted rather than styling h1 h2 etc. This is to ensure mark-up is accessible
+
 .font-style-1 {
   font-size: $font-size-1;
   line-height: $line-height-7;

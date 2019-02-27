@@ -1,9 +1,17 @@
 /* TEAM */
-	UI developer: Your Name
-	Contact: you [at] yourdomain.org
-	Twitter: @???
-	LinkedIn: https://uk.linkedin.com/in/your-id-here
-	From: Your Country / Location
+	UI developer: Adam Parsons
+	Contact: adamgeorgeparsons@gmail.com
+	Website: adamparsons.me
+	From: Sydney, Australia living in London, UK
+
+/* MY APPROACH */
+This project was created with an ITCSS structure in mind.
+I used sass and sassed variables wherever possible to keep consistency in both css and design.
+I have used npm scripts to build the src files into the build folder.
+
+Further exploration
+With more time permitted I would of explored a functional css approach which would favor scalability.
+Also I would like to experiment with a framework like next.js which uses React to render static sites. Turning each component into a react component could of been another way to increase scalability.
 
 /**
  * Please leave us your contact details here so we can be sure we can get back in touch.

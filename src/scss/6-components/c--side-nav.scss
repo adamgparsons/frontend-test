@@ -2,6 +2,7 @@
 // @components: side-nav
 // ========================================================
 
+// Design note. I would have the hamburger only come up for mobile depending what was in the navigation
 
 .side-nav-toggle {
   @include user-select-none;
@@ -74,15 +75,11 @@
     }
 
     &::after {
-      -ms-transform: rotate(45deg);
-      -webkit-transform: rotate(45deg);
-      transform: rotate(45deg);
+      @include transform-rotate-45;
     }
 
     &::before {
-      -ms-transform: rotate(-45deg);
-      -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg);
+      @include transform-rotate--45;
     }
   }
 }
