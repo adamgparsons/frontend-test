@@ -180,6 +180,14 @@ button:hover {
   color: #333333;
 }
 
+.footer-content .social-icons {
+  margin-top: 0.5rem;
+}
+
+.footer-content .social-icons svg {
+  padding-right: 0.5rem;
+}
+
 .footer-list-heading {
   font-size: 0.75rem;
   line-height: 1.375rem;
@@ -195,7 +203,7 @@ button:hover {
   color: #b2b2b2;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 910px) {
   .footer-content {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
