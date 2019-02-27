@@ -19,8 +19,8 @@
 
 @media #{$breakpoint-small} {
   .grid {
-    flex-direction: column-reverse;
-    align-items: center;
+    @include flex-direction-column-reverse;
+    @include align-items-center;
     margin-left: -$spacing-3;
     margin-right: -$spacing-3
   }

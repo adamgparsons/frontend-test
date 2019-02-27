@@ -18,3 +18,20 @@
     padding-left: $spacing-2;
   }
 }
+
+@media screen and (max-width:550px) {
+  .hero {
+    padding: 200px 0;
+  }
+
+  .hero-logo {
+    svg {
+      width: 52px;
+    }
+
+    h1 {
+      font-size: $font-size-2;
+      padding-left: $spacing-1;
+    }
+  }
+}
